@@ -1,0 +1,335 @@
+@font-face {
+  font-family: "Regular";
+  src: url(/fonts/modern-era-regular-web.woff2);
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url(/fonts/modern-era-medium-web.woff2);
+}
+
+@font-face {
+  font-family: "Regular Riv";
+  src: url(/assests/RivieraNights-Regular.woff);
+}
+
+@font-face {
+  font-family: "Riveria Light";
+  src: url(/assests/RivieraNights-Light.89b26c2e8a69d878.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: brown; */
+}
+
+.text {
+  line-height: 50px;
+}
+
+.text>h1 {
+  font-size: 5vw;
+  letter-spacing: 4px;
+}
+
+.text>h3 {
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.super-page2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.cover {
+  width: 70%;
+  height:70%;
+}
+
+.cover>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tl {
+  opacity: 0;
+  text-align: center;
+}
+
+.tl>h4 {
+  font-size: 2vw;
+}
+
+.super-page3 {
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.p>p {
+  font-size: 2vw;
+}
+
+.super-page4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.journey {
+  width: 100%;
+  height:100%;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.child-1{
+width: 49%;
+}
+.child-2
+{width: 49%;
+
+}
+.child-1>img,.child-2>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.extra-space{
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+.extra-space>h1{
+  font-size: 1.4vw;
+  font-weight: 400;
+}
+.extra-space>a{
+text-decoration: none;
+padding: 10px;
+border: .9px solid #333;
+border-radius: 50%;
+}
+.extra-space>a>i{
+  color: black;
+}
+@media (max-width: 767px) {
+  nav {
+    width: 100%;
+    padding: 5vw 6vw;
+  }
+
+  .menu>p {
+    font-size: 3.5vw;
+  }
+
+  .logo>img {
+    height: 50px;
+  }
+
+  .search {
+    font-size: 10px;
+    display: flex;
+    gap: 0;
+    border-bottom: none;
+  }
+
+  .search>span>i {
+    font-size: 3.5vw;
+  }
+
+  .search>p {
+    display: none;
+  }
+
+  .text>h3 {
+    font-size: 5.5vw;
+  }
+
+  .discover {
+    margin-top: 2vw;
+  }
+
+  .discover>a {
+    padding: 10px 22px;
+    font-size: 12px;
+  }
+
+  .center>h1 {
+    font-size: 6vw;
+  }
+
+  .center>p {
+    font-size: 3vw;
+  }
+
+  .click {
+    margin-top: 2vw;
+  }
+
+  .click>a {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-size: 10px;
+  }
+
+  .page5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #lists {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .li-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .li-top {
+    width: 100%;
+    padding: 2vw 0;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .li-top>a {
+    font-size: 10px;
+  }
+
+  .li-bottom {
+    padding: 2vw 0;
+    width: 100%;
+    display: flex;
+    /* background-color: tomato; */
+    flex-direction: column;
+  }
+
+  .li-bottom>a {
+    font-size: 12px;
+  }
+
+  .li-right {
+    width: 100%;
+  }
+
+  .li-right {
+    margin-top: 3vw;
+  }
+
+  .li-right>i {
+    font-size: 6vw;
+  }
+
+  #rolls {
+    font-size: 10px;
+    padding: 1vw;
+  }
+
+  .li-right {
+    display: none;
+  }
+
+  .li-rights {
+    display: initial;
+  }
+
+  .copy {
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .copy>p {
+    font-size: 10px;
+  }
+
+  .super-page2 {
+    gap: 10vw;
+  }
+  .cover{
+    width: 100%;
+    height: 100%;
+  }
+
+  .tl>h4 {
+    font-size: 5vw;
+  }
+
+  .p>p {
+    font-size: 3vw;
+  }
+  .journey{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .child-1,.child-2{
+    width: 100%;
+    height: 49%;
+  }
+  .extra-space>h1{
+    font-size: 3vw;
+  }
+  .extra-space>a{
+    padding: 2vw;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1200px) {}
